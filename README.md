@@ -1,3 +1,6 @@
+[![Gitter](https://badges.gitter.im/plvicente-ringsce/community.svg)]
+(https://gitter.im/plvicente-ringsce/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 #  ringsce editor
 This is an editor written with lazarus ide and free pascal. Where you can use for openkrown repo to build the engine
 
@@ -16,3 +19,8 @@ Every person can contribute to the project itself. Inside the contributions, we 
 
 ## Contact us
 You can contact us here. Or try to chat with us at discord: plvicente
+
+![Screenshot](RINGSCE_v2.png)
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](pdvicente@gleentech.com)
+
