@@ -80,6 +80,25 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="createFile"/>
       </Unit>
+      <Unit>
+        <Filename Value="splashscreen.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="savecpp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="saveCPP"/>
+      </Unit>
+      <Unit>
+        <Filename Value="savephp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="savePHP"/>
+      </Unit>
+      <Unit>
+        <Filename Value="savebas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="saveBAS"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -92,6 +111,9 @@
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>
