@@ -10,7 +10,7 @@ uses
   {$ENDIF} {$ENDIF}
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ComCtrls,
   SynEdit, SynCompletion, SynHighlighterCpp, SynHighlighterPas,
-  SynHighlighterVB, SynHighlighterPHP, SynHighlighterCss, setup1, unit3;
+  SynHighlighterVB, SynHighlighterPHP, SynHighlighterCss, setup1, Unit3;
 
 type
 

@@ -1,19 +1,19 @@
 object Form1: TForm1
-  Left = 172
-  Height = 240
-  Top = 148
-  Width = 320
+  Left = 0
+  Height = 712
+  Top = 25
+  Width = 1280
   Caption = 'Form1'
-  ClientHeight = 240
-  ClientWidth = 320
+  ClientHeight = 712
+  ClientWidth = 1280
   Menu = MainMenu1
   OnCreate = FormCreate
   LCLVersion = '3.99.0.0'
   inline SynEdit1: TSynEdit
     Left = 256
-    Height = 150
-    Top = 48
-    Width = 400
+    Height = 390
+    Top = 56
+    Width = 416
     Font.Height = 10
     Font.Name = 'Andale Mono'
     Font.Pitch = fpFixed
