@@ -5,6 +5,9 @@ unit Unit1;
 interface
 
 uses
+  {$IFDEF UNIX} {$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF} {$ENDIF}
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ComCtrls,
   SynEdit, SynCompletion, SynHighlighterCpp, SynHighlighterPas,
   SynHighlighterVB, SynHighlighterPHP, SynHighlighterCss, setup1, unit3;
