@@ -19,6 +19,12 @@ type
   TForm1 = class(TForm)
     MainMenu1: TMainMenu;
     F: TMenuItem;
+    MenuItem1: TMenuItem;
+    MenuItem10: TMenuItem;
+    MenuItem11: TMenuItem;
+    MenuItem2: TMenuItem;
+    MenuItem8: TMenuItem;
+    MenuItem9: TMenuItem;
     Project: TMenuItem;
     SynCssSyn1: TSynCssSyn;
     SynPHPSyn1: TSynPHPSyn;
@@ -40,6 +46,7 @@ type
     procedure FormCreate(Sender: TObject);
     procedure FClick(Sender: TObject);
     procedure AboutClick(Sender: TObject);
+    procedure MenuItem1Click(Sender: TObject);
     procedure ProjectClick(Sender: TObject);
     procedure SynEdit1Change(Sender: TObject);
     procedure ToolsClick(Sender: TObject);
@@ -66,6 +73,11 @@ end;
 procedure TForm1.AboutClick(Sender: TObject);
 begin
 // TForm2.ShowModal;
+end;
+
+procedure TForm1.MenuItem1Click(Sender: TObject);
+begin
+
 end;
 
 procedure TForm1.ProjectClick(Sender: TObject);
