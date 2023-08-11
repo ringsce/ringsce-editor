@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, Unit1, setup1, Unit2, Unit3, Unit4
+  Forms, Unit1, setup1, Unit2, Unit3, Unit4, createFile
   { you can add units after this };
 
 {$R *.res}
