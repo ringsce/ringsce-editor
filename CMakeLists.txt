@@ -1,10 +1,10 @@
 enable_language(Pascal)
 
-find_package(SDL2 REQUIRED CONFIG)
-find_package(SDL2_image 2 REQUIRED)
-find_package(SDL2_net 2 REQUIRED)
-find_package(SDL2_ttf 2 REQUIRED)
-find_package(SDL2_mixer 2 REQUIRED)
+#find_package(SDL2 REQUIRED CONFIG)
+#find_package(SDL2_image 2 REQUIRED)
+#find_package(SDL2_net 2 REQUIRED)
+#find_package(SDL2_ttf 2 REQUIRED)
+#find_package(SDL2_mixer 2 REQUIRED)
 
 include(CheckLibraryExists)
 include(${CMAKE_MODULE_PATH}/utils.cmake)
@@ -39,46 +39,7 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 
 #set the sources with the correct order of dependencies so that cmake won't be confused
-set(engine_sources
-    SDLh.pas
-    uSinTable.pas
-    uFloat.pas
-    uConsts.pas
-    LuaPas.pas
-    uTypes.pas
-    uVariables.pas
-    uUtils.pas
-    uMisc.pas
-    uConsole.pas
-    uCommands.pas
-    uDebug.pas
-    uKeyNames.pas
-    uInputHandler.pas
-    uTextures.pas
-    uRenderUtils.pas
-    uRender.pas
-    uCaptions.pas
-    uIO.pas
-    uChat.pas
-    uPhysFSLayer.pas
-    uSound.pas
-    ArgParsers.pas
-    uRandom.pas
-    uLocale.pas
-    uStats.pas
-    uCursor.pas
-    uVideoRec.pas
-    uAILandMarks.pas
-    adler32.pas
-    uLandTemplates.pas
-    uLandTexture.pas
-    uLandGraphics.pas
-    uLandPainted.pas
-    uLandOutline.pas
-    uLandGenMaze.pas
-    uLandGenPerlin.pas
-    uLandGenTemplateBased.pas
-    uLandUtils.pas
+set(
 
     #this is where dependency tracking becomes hard
     uStore.pas
