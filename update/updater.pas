@@ -8,6 +8,10 @@ uses
   {$IFDEF UNIX} {$IFDEF UseCThreads}
   cthreads,
   {$ENDIF} {$ENDIF}
+  {$IFDEF HASAMIGA}
+  athreads,
+  {$ENDIF}
+
   Classes, SysUtils, libpascurl;
 var
   handle : CURL;
