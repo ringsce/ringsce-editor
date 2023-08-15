@@ -1,31 +1,32 @@
 unit cpu_code;
-{$mode ObjFPC}{$H+}
+
+{$mode objfpc}{$H+}
+
 interface
-//{$ifdef fpc}{$mode delphi}{$endif}
+
 uses
-  {$IFDEF UNIX} {$IFDEF UseCThreads}
-  cthreads,
-  {$ENDIF} {$ENDIF}
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
+
+
 type
   TMyThread= class(TThread)
   procedure Execute;override;
+  public
+    timed:cardinal;
+    starts:integer;
+    stopts:integer;
+
   end;
-  procedure TMyThread.Execute;
-  var
-    test:integer=0;
-    begin
-      repeat
-      inc(test);
-    until test>=High(integer);
-  end;
+
 var
  T:Array[0..3] of TMyThread;
  s:string;
-begin
+{begin
   S:='';
  var
  T:Array[0..3] of TMyThread;
  s:string;
+ end.}
 begin
   S:='';
   T[0] := TMyThread.Create(false);T[0].FreeOnTerminate := true;
