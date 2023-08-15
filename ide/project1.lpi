@@ -100,6 +100,10 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="saveBAS"/>
       </Unit>
+      <Unit>
+        <Filename Value="cpu_code.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
