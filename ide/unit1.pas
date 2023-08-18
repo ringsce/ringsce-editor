@@ -22,6 +22,7 @@ type
     MenuItem1: TMenuItem;
     MenuItem10: TMenuItem;
     MenuItem11: TMenuItem;
+    MenuItem12: TMenuItem;
     MenuItem2: TMenuItem;
     MenuItem8: TMenuItem;
     MenuItem9: TMenuItem;
@@ -97,12 +98,13 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  // Create and show splash screen
-  splScreen:=TsplScreen.create(Application);
-  splScreen.show;
-  Application.ProcessMessages;
-  splScreen.Update;
-  Application.ProcessMessages;
+     Form1.Caption := 'ringsCE';
+     // Create and show splash screen
+     splScreen:=TsplScreen.create(Application);
+     splScreen.show;
+     Application.ProcessMessages;
+     splScreen.Update;
+     Application.ProcessMessages;
 
   // remove this line:
   // Application.CreateForm(TfmLoading, fmLoading);

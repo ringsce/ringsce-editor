@@ -18,6 +18,7 @@ uses
 
 begin
   RequireDerivedFormResource:=True;
+  Application.Title:='ringsCE';
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);

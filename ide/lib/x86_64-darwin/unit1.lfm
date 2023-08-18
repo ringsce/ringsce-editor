@@ -13,7 +13,7 @@ object Form1: TForm1
     Left = 256
     Height = 390
     Top = 56
-    Width = 416
+    Width = 1024
     Font.Height = 10
     Font.Name = 'Andale Mono'
     Font.Pitch = fpFixed
@@ -606,6 +606,9 @@ object Form1: TForm1
     object Project: TMenuItem
       Caption = 'Project'
       OnClick = ProjectClick
+      object MenuItem12: TMenuItem
+        Caption = 'MenuItem12'
+      end
     end
   end
   object SynPHPSyn1: TSynPHPSyn
