@@ -11,8 +11,8 @@ object Form1: TForm1
   LCLVersion = '3.99.0.0'
   inline SynEdit1: TSynEdit
     Left = 256
-    Height = 390
-    Top = 56
+    Height = 398
+    Top = 48
     Width = 1024
     Font.Height = 10
     Font.Name = 'Andale Mono'
@@ -516,7 +516,7 @@ object Form1: TForm1
     TabOrder = 1
   end
   object SynCompletion1: TSynCompletion
-    Position = -1
+    Position = 0
     LinesInWindow = 6
     SelectedColor = clHighlight
     CaseSensitive = False
@@ -552,7 +552,7 @@ object Form1: TForm1
   object MainMenu1: TMainMenu
     Left = 392
     object F: TMenuItem
-      Caption = 'F'
+      Caption = 'File'
       OnClick = FClick
       object About: TMenuItem
         Caption = 'About'
@@ -577,17 +577,17 @@ object Form1: TForm1
     object Edit: TMenuItem
       Caption = 'Edit'
       object MenuItem1: TMenuItem
-        Caption = 'MenuItem1'
+        Caption = 'Cut'
         OnClick = MenuItem1Click
       end
       object MenuItem2: TMenuItem
-        Caption = 'MenuItem2'
+        Caption = 'Paste'
       end
       object MenuItem8: TMenuItem
-        Caption = 'MenuItem8'
-      end
-      object MenuItem9: TMenuItem
-        Caption = 'MenuItem9'
+        Caption = 'Tools'
+        object MenuItem13: TMenuItem
+          Caption = 'MenuItem13'
+        end
       end
       object MenuItem10: TMenuItem
         Caption = 'MenuItem10'
@@ -607,7 +607,14 @@ object Form1: TForm1
       Caption = 'Project'
       OnClick = ProjectClick
       object MenuItem12: TMenuItem
-        Caption = 'MenuItem12'
+        Caption = 'New Project'
+        OnClick = MenuItem12Click
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'Load Project'
+      end
+      object MenuItem14: TMenuItem
+        Caption = 'Save Project'
       end
     end
   end

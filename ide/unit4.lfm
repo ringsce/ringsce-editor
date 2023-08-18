@@ -12,8 +12,17 @@ object frmAbout: TfrmAbout
     Height = 25
     Top = 205
     Width = 75
-    Caption = 'Button1'
+    Caption = 'Close'
     OnClick = Button1Click
     TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 80
+    Height = 22
+    Top = 24
+    Width = 217
+    OnChange = Edit1Change
+    TabOrder = 1
+    Text = 'Edit1'
   end
 end

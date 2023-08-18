@@ -4,5 +4,14 @@ object splScreen: TsplScreen
   Top = 231
   Width = 320
   Caption = 'splScreen'
-  LCLVersion = '2.2.6.0'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '3.99.0.0'
+  object Image1: TImage
+    Left = 32
+    Height = 154
+    Top = 14
+    Width = 272
+    OnClick = Image1Click
+  end
 end

@@ -23,6 +23,8 @@ type
     MenuItem10: TMenuItem;
     MenuItem11: TMenuItem;
     MenuItem12: TMenuItem;
+    MenuItem13: TMenuItem;
+    MenuItem14: TMenuItem;
     MenuItem2: TMenuItem;
     MenuItem8: TMenuItem;
     MenuItem9: TMenuItem;
@@ -47,7 +49,9 @@ type
     procedure FormCreate(Sender: TObject);
     procedure FClick(Sender: TObject);
     procedure AboutClick(Sender: TObject);
+    procedure MenuItem12Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
+    procedure MenuItem9Click(Sender: TObject);
     procedure ProjectClick(Sender: TObject);
     procedure SynEdit1Change(Sender: TObject);
     procedure ToolsClick(Sender: TObject);
@@ -76,7 +80,17 @@ begin
 // TForm2.ShowModal;
 end;
 
+procedure TForm1.MenuItem12Click(Sender: TObject);
+begin
+
+end;
+
 procedure TForm1.MenuItem1Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.MenuItem9Click(Sender: TObject);
 begin
 
 end;
@@ -88,7 +102,7 @@ end;
 
 procedure TForm1.SynEdit1Change(Sender: TObject);
 begin
-
+    SynEdit1.Caption := '';
 end;
 
 procedure TForm1.ToolsClick(Sender: TObject);

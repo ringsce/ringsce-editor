@@ -5,10 +5,15 @@ unit Unit3;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls;
 
 type
+
+  { TsplScreen }
+
   TsplScreen = class(TForm)
+    Image1: TImage;
+    procedure Image1Click(Sender: TObject);
   private
 
   public
@@ -21,6 +26,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TsplScreen }
+
+procedure TsplScreen.Image1Click(Sender: TObject);
+begin
+  //image1.Picture.LoadFromFile('/Users/pedro/demo.jpg');   // Assumes Linux path
+end;
 
 end.
 
