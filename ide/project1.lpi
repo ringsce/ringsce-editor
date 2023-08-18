@@ -11,6 +11,7 @@
       <XPManifest>
         <DpiAware Value="True"/>
         <TextName Value="kreatyve.ringsce.ringsce"/>
+        <TextDesc Value="Demo RingscE"/>
       </XPManifest>
       <Icon Value="0"/>
     </General>
@@ -115,6 +116,10 @@
       <IncludeFiles Value="$(ProjOutDir)"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
+    <CodeGeneration>
+      <TargetCPU Value="aarch64"/>
+      <TargetOS Value="darwin"/>
+    </CodeGeneration>
     <Linking>
       <Debugging>
         <DebugInfoType Value="dsDwarf3"/>

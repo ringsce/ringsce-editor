@@ -10,9 +10,9 @@
   <Attribute Name="Keyword" Style="b"> </Attribute>
   <Identifiers CharsStart= "A..Za..z_" Content = "A..Za..z0..9_"> 
     <token attribute="Keyword"> 
-    absolute  and  array  asm as 
-    begin 
-    case  const  constructor class 
+    alignas alignof  and  and_eq array  asm auto 
+    atomic_cancel   atomic_commit atomic_noexcept 
+    case auto bitand bitor bool break catch  const  constructor class 
     destructor  div  do  downto dispose  
     else  end exit except  exports 
     for function file finalization finally

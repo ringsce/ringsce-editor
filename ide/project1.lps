@@ -7,7 +7,6 @@
       <Unit>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="7"/>
         <TopLine Value="6"/>
         <CursorPos X="19" Y="14"/>
@@ -21,9 +20,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
         <UsageCount Value="78"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="setup1.pas"/>
@@ -74,7 +73,7 @@
         <UnitName Value="Unit4"/>
         <EditorIndex Value="9"/>
         <TopLine Value="6"/>
-        <CursorPos Y="26"/>
+        <CursorPos X="15" Y="21"/>
         <UsageCount Value="40"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
