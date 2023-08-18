@@ -30,7 +30,10 @@
     transaction_safe  transaction_safe_dynamic import module
     unit  until  uses  
     while  with 
-    xor
+    xor _Pragma endif elif ifdef ifndef warning pragma
+    include error warning line undef define
+    elifdef elifndef defined __has_include __has_cpp_attribute
+    export 
     </token>
   </Identifiers>
   <Token CharsStart="$" Content = '0..9ABCDEFabcdef' Attribute='NUMBER'> </Token>
