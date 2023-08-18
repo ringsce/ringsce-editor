@@ -13,8 +13,8 @@
     alignas alignof  and  and_eq array  asm auto 
     atomic_cancel   atomic_commit atomic_noexcept 
     case auto bitand bitor bool break catch  const  constructor class 
-    destructor  div  do  downto dispose  
-    else  end exit except  exports 
+    destructor   do   dispose  
+    else  end exit except  exports  final 
     for function file finalization finally
     goto
     if  implementation  in  inherited  inline  interface initialization  is 
@@ -26,9 +26,9 @@
 	protected public private published packed program 
     repeat record  reintroduce raise 
     string self  set  shl  shr  
-    then to try true type threadvar 
-    unit  until  uses 
-    var 
+    then to try true type threadvar override
+    transaction_safe  transaction_safe_dynamic import module
+    unit  until  uses  
     while  with 
     xor
     </token>
