@@ -516,7 +516,7 @@ object Form1: TForm1
     TabOrder = 1
   end
   object SynCompletion1: TSynCompletion
-    Position = 0
+    Position = -1
     LinesInWindow = 6
     SelectedColor = clHighlight
     CaseSensitive = False

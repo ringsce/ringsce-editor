@@ -98,18 +98,18 @@ end;
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   // Create and show splash screen
-  //splScreen:=TsplScreen.create(Application);
-  //splScreen.show;
-  //Application.ProcessMessages;
-  //splScreen.Update;
-  //Application.ProcessMessages;
+  splScreen:=TsplScreen.create(Application);
+  splScreen.show;
+  Application.ProcessMessages;
+  splScreen.Update;
+  Application.ProcessMessages;
 
   // remove this line:
   // Application.CreateForm(TfmLoading, fmLoading);
   //Application.CreateForm(TAboutForm, AboutForm);
 
   // Hide and destroy splash screen
-  //splScreen.close;
+  splScreen.close;
   //splScreen.Release; // comment this out if you'd like to use it in the application again
 
   //Application.Run;

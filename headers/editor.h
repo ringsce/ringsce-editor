@@ -9,6 +9,10 @@ using namespace std;
 
 #pragma argused
 
+#define    MAGIC    0234
+
+#pragma pack(push, 1)
+
 const bool saveBAS();
 const bool saveExtension();
 
