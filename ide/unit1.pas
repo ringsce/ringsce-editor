@@ -25,19 +25,15 @@ type
     MenuItem12: TMenuItem;
     MenuItem13: TMenuItem;
     MenuItem14: TMenuItem;
+    MenuItem15: TMenuItem;
     MenuItem2: TMenuItem;
+    MenuItem3: TMenuItem;
     MenuItem8: TMenuItem;
     MenuItem9: TMenuItem;
     Project: TMenuItem;
     SynCssSyn1: TSynCssSyn;
     SynPHPSyn1: TSynPHPSyn;
     Tools: TMenuItem;
-    About: TMenuItem;
-    MenuItem3: TMenuItem;
-    MenuItem4: TMenuItem;
-    MenuItem5: TMenuItem;
-    MenuItem6: TMenuItem;
-    MenuItem7: TMenuItem;
     Edit: TMenuItem;
     TreeView1: TTreeView;
     View: TMenuItem;
@@ -50,6 +46,7 @@ type
     procedure FClick(Sender: TObject);
     procedure AboutClick(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
+    procedure MenuItem15Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
     procedure MenuItem9Click(Sender: TObject);
     procedure ProjectClick(Sender: TObject);
@@ -77,10 +74,15 @@ end;
 
 procedure TForm1.AboutClick(Sender: TObject);
 begin
-// TForm2.ShowModal;
+//frmAbout.ShowModal;
 end;
 
 procedure TForm1.MenuItem12Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.MenuItem15Click(Sender: TObject);
 begin
 
 end;

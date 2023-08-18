@@ -516,7 +516,7 @@ object Form1: TForm1
     TabOrder = 1
   end
   object SynCompletion1: TSynCompletion
-    Position = 0
+    Position = -1
     LinesInWindow = 6
     SelectedColor = clHighlight
     CaseSensitive = False
@@ -554,24 +554,12 @@ object Form1: TForm1
     object F: TMenuItem
       Caption = 'File'
       OnClick = FClick
-      object About: TMenuItem
+      object MenuItem3: TMenuItem
         Caption = 'About'
-        OnClick = AboutClick
-        object MenuItem3: TMenuItem
-          Caption = 'MenuItem3'
-        end
-        object MenuItem4: TMenuItem
-          Caption = 'MenuItem4'
-        end
-        object MenuItem5: TMenuItem
-          Caption = 'MenuItem5'
-        end
-        object MenuItem6: TMenuItem
-          Caption = 'MenuItem6'
-        end
-        object MenuItem7: TMenuItem
-          Caption = 'MenuItem7'
-        end
+      end
+      object MenuItem15: TMenuItem
+        Caption = 'Settings'
+        OnClick = MenuItem15Click
       end
     end
     object Edit: TMenuItem
