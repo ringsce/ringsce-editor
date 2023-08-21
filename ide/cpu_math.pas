@@ -1,4 +1,4 @@
-unit cpu_code;
+unit cpu_math;
 
 {$mode objfpc}{$H+}
 
