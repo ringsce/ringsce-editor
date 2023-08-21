@@ -27,6 +27,14 @@ var
  T:Array[0..3] of TMyThread;
  s:string;
  end.}
+
+ // The $asmMode directive informs the compiler
+// which syntax is used in asm-blocks.
+// Alternatives are 'att' (AT&T syntax) and 'direct'.
+{$ifDef CPUx86_64} // ============= optimized implementation
+assembler;
+{$asmMode intel}
+
 begin
   S:='';
   T[0] := TMyThread.Create(false);T[0].FreeOnTerminate := true;
