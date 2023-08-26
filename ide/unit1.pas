@@ -33,6 +33,7 @@ type
     Project: TMenuItem;
     SynCssSyn1: TSynCssSyn;
     SynPHPSyn1: TSynPHPSyn;
+    ToolBar1: TToolBar;
     Tools: TMenuItem;
     Edit: TMenuItem;
     TreeView1: TTreeView;
@@ -51,6 +52,7 @@ type
     procedure MenuItem9Click(Sender: TObject);
     procedure ProjectClick(Sender: TObject);
     procedure SynEdit1Change(Sender: TObject);
+    procedure ToolBar1Click(Sender: TObject);
     procedure ToolsClick(Sender: TObject);
   private
 
@@ -105,6 +107,11 @@ end;
 procedure TForm1.SynEdit1Change(Sender: TObject);
 begin
     SynEdit1.Caption := '';
+end;
+
+procedure TForm1.ToolBar1Click(Sender: TObject);
+begin
+
 end;
 
 procedure TForm1.ToolsClick(Sender: TObject);
