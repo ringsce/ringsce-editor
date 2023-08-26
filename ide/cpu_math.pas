@@ -10,7 +10,7 @@ uses
 
 type
   TMyThread= class(TThread)
-  procedure Execute;override;
+  procedure  Execute;override;
   public
     timed:cardinal;
     starts:integer;
