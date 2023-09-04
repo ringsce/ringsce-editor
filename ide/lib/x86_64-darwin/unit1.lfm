@@ -525,7 +525,7 @@ object Form1: TForm1
     OnClick = ToolBar1Click
   end
   object SynCompletion1: TSynCompletion
-    Position = -1
+    Position = 0
     LinesInWindow = 6
     SelectedColor = clHighlight
     CaseSensitive = False

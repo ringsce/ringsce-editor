@@ -9,7 +9,7 @@ uses
   cthreads,
   {$ENDIF} {$ENDIF}
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ComCtrls,
-  SynEdit, SynCompletion, SynHighlighterCpp, SynHighlighterPas,
+  SynEdit, SynEditHighlighter, LCLType, Lazlogger,SynCompletion, SynHighlighterCpp, SynHighlighterPas,
   SynHighlighterVB, SynHighlighterPHP, SynHighlighterCss, setup1, Unit3;
 
 type
@@ -18,6 +18,9 @@ type
 
   TForm1 = class(TForm)
     MainMenu1: TMainMenu;
+    ed1: TSynEdit;
+    mnSyntax: TMenuItem;
+    OpenDialog1: TOpenDialog;
     F: TMenuItem;
     MenuItem1: TMenuItem;
     MenuItem10: TMenuItem;
@@ -66,6 +69,10 @@ var
 implementation
 
 {$R *.lfm}
+
+//create space token
+var hlt :TSynCompletion;
+
 
 { TForm1 }
 
