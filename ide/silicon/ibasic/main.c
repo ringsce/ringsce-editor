@@ -24,6 +24,13 @@ SOFTWARE.
 #include <stdio.h>
 
 #include <stdlib.h>
+
+struct integerBasic
+{
+    int value;
+    int tokenize;
+}integer_t;
+
 int main(void)
 {
     return 0;
