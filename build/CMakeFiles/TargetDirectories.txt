@@ -1,2 +1,0 @@
-/Users/pedro/Projects/ringsce/ringsce-editor/build/CMakeFiles/edit_cache.dir
-/Users/pedro/Projects/ringsce/ringsce-editor/build/CMakeFiles/rebuild_cache.dir
