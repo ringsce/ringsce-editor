@@ -1,4 +1,4 @@
-#CMake for silicon
+#cmake for silicon
 project(ringsCE)
 cmake_minimum_required(VERSION 3.24 FATAL_ERROR)
 #find_package(SDL2 REQUIRED CONFIG)
