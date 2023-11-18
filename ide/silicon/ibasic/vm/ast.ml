@@ -34,8 +34,12 @@ type expr =
   | Int of int
   | Bool of bool
   | Float of float
+  | Double of double
   | Binop of bop * expr * expr
   | Let of string * expr * expr
   | If of expr * expr * expr
   | While of expr * expr
   | For of expr * expr
+  | Do of expr * expr
+  | Call of string list * expr list
+  | Lambda of string * expr * expr
