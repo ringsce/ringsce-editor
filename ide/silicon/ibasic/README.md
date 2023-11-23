@@ -19,3 +19,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## License
+With this license, you can distribute and use as an open source project. This is based on MIT licensed terms.
+
+
+## building instructions
+To use this project please use the following command brew.
+
+- brew install cmake gtk+3
+
+You must have a silicon motherboard to use this project. We want to use the legacy project for now with lazarus ide, for non legacy project must be installed silicon brewing and necessary files for the build process.
+
+## interactive features
+- Interactive Basic
+- VM support for interaction with the GUI
+- Macros
+- Specific commands for gaming
+- bulit-in maps for glsl and haxe integration

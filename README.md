@@ -3,12 +3,12 @@
 
 #  ringsce editor
 This is an editor written with Lazarus IDE and free Pascal. Where you can use for ringsce repo to build the engine
-ringsCe editor is available too for silicon compatibility mode. For, this build its' a gtk3 editor and interpreter.
+ringsCE editor is available too for silicon compatibility mode. For, this build its' a gtk3 editor and interpreter.
 We are coding a vm and interpreter for editor, macros and gaming script. For older versions like intel os'es we must use freePascal instead.
 For silicon compatibility mode we need to use gtk3 editor and gtk3 framework from brew.
 
 ## Our Goals
-Our goal for this project is to deliver an open-source library for JSON, XML, and database for the ringssce engine.
+Our goal for this project is to deliver an open-source library for JSON, XML, and database for the ringsCE engine.
 To get started, we need to have now a m1+ for building our own json library and XML library. For older versions we must use the freePascal code folder.
 
 ## Database goals
