@@ -27,7 +27,8 @@ With this license, you can distribute and use as an open source project. This is
 ## building instructions
 To use this project please use the following command brew.
 
-- brew install cmake gtk+3
+- brew install cmake gtk+3 pkg-config
+
 
 You must have a silicon motherboard to use this project. We want to use the legacy project for now with lazarus ide, for non legacy project must be installed silicon brewing and necessary files for the build process.
 
