@@ -111,9 +111,15 @@
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="synfacilcompletion.pas"/>
+        <Filename Value="SynFacilCompletion.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="SynFacilCompletion"/>
+      </Unit>
+      <Unit>
+        <Filename Value="settings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form4"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Settings"/>
       </Unit>
     </Units>
   </ProjectOptions>

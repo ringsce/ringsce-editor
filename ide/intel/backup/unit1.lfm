@@ -8,7 +8,7 @@ object Form1: TForm1
   ClientWidth = 947
   Menu = MainMenu1
   OnCreate = FormCreate
-  LCLVersion = '3.99.0.0'
+  LCLVersion = '2.2.6.0'
   inline SynEdit1: TSynEdit
     Left = 256
     Height = 398
@@ -549,7 +549,6 @@ object Form1: TForm1
     CompilerMode = pcmObjFPC
     NestedComments = True
     TypeHelpers = False
-    StringMultilineMode = []
     Left = 728
     Top = 136
   end
@@ -588,6 +587,7 @@ object Form1: TForm1
       end
       object MenuItem10: TMenuItem
         Caption = 'MenuItem10'
+        OnClick = MenuItem10Click
       end
     end
     object View: TMenuItem

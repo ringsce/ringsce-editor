@@ -5,9 +5,8 @@ unit Unit1;
 interface
 
 uses
-  {$IFDEF UNIX} {$IFDEF UseCThreads}
-  cthreads,
-  {$ENDIF} {$ENDIF}
+  {$IFDEF UNIX}cthreads,{$ENDIF}
+  fphttpapp, httpdefs, httproute, fpjson, jsonparser,
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ComCtrls,
   SynEdit, SynEditHighlighter, LCLType, Lazlogger,SynCompletion, SynHighlighterCpp, SynHighlighterPas,
   SynHighlighterVB, SynHighlighterPHP, SynHighlighterCss, setup1, Unit3;
@@ -49,6 +48,7 @@ type
     procedure FormCreate(Sender: TObject);
     procedure FClick(Sender: TObject);
     procedure AboutClick(Sender: TObject);
+    procedure MenuItem10Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
     procedure MenuItem15Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
@@ -76,6 +76,36 @@ var hlt :TSynCompletion;
 
 { TForm1 }
 
+  // function getExtension
+function GetExtenion(S : String) : String;
+Var
+  LeftChar : Integer;
+  RightChar : Integer;
+Begin
+  Result := '';
+  LeftChar := Pos('(',S);
+  RightChar := Pos(')',S);
+  if ((leftchar=0) or (rightchar=0)) then exit;
+  inc(leftchar); // increment by one to ignore the (
+  rightchar:=rightchar-leftchar;// this should give the count for the copy command
+  Result := copy(S,LeftChar,RightChar);
+end;
+
+// function getExt
+function GetExt(S : String;AFind,BFind:String) : String;
+Var
+  LeftChar : Integer;
+  RightChar : Integer;
+Begin
+  Result := '';
+  LeftChar := Pos(AFind,S);
+  RightChar := Pos(BFind,S);
+  if ((leftchar=0) or (rightchar=0)) then exit;
+  inc(leftchar); // increment by one to ignore the AFind
+  rightchar:=rightchar-leftchar;// this should give the count for the copy command
+  Result := copy(S,LeftChar,RightChar);
+end;
+
 procedure TForm1.FClick(Sender: TObject);
 begin
 
@@ -86,6 +116,9 @@ begin
 //frmAbout.ShowModal;
 end;
 
+procedure TForm1.MenuItem10Click(Sender: TObject);
+begin
+end;
 procedure TForm1.MenuItem12Click(Sender: TObject);
 begin
 

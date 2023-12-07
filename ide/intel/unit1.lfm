@@ -587,6 +587,7 @@ object Form1: TForm1
       end
       object MenuItem10: TMenuItem
         Caption = 'MenuItem10'
+        OnClick = MenuItem10Click
       end
     end
     object View: TMenuItem
