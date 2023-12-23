@@ -13,7 +13,6 @@ object Form6: TForm6
   object SQLConnector1: TSQLConnector
     Connected = False
     LoginPrompt = False
-    AfterConnect = SQLConnector1AfterConnect
     KeepConnection = False
     Left = 163
     Top = 53

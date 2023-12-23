@@ -14,7 +14,6 @@ type
   TForm6 = class(TForm)
     SQLConnector1: TSQLConnector;
     SQLDBLibraryLoader1: TSQLDBLibraryLoader;
-    procedure SQLConnector1AfterConnect(Sender: TObject);
   private
 
   public
@@ -27,13 +26,6 @@ var
 implementation
 
 {$R *.lfm}
-
-{ TForm6 }
-
-procedure TForm6.SQLConnector1AfterConnect(Sender: TObject);
-begin
-
-end;
 
 end.
 
