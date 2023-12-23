@@ -1,3 +1,5 @@
+![Screenshot](RINGSCE_v2.png)
+
 #  ringsce editor
 This is an editor written with Lazarus IDE and free Pascal. Where you can use for ringsce repo to build the engine
 ringsCE editor is available too for silicon compatibility mode. For, this build its' a gtk3 editor and interpreter.
@@ -32,5 +34,3 @@ You can contact us here. Or try to chat with us at discord: plvicente
 ![Screenshot](RINGSCE_v2.png)
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](pdvicente@gleentech.com)
-
-
