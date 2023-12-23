@@ -8,7 +8,7 @@ cmake_minimum_required(VERSION 3.24)
 
 include(CheckLibraryExists)
 #include(${CMAKE_MODULE_PATH}/utils.cmake)
-
+CMAKE_Pascal_COMPILER_VERSION()
 
 enable_language(Pascal)
 add_flag_append(CMAKE_Pascal_FLAGS "-Cs2000000 -B")

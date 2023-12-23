@@ -1,6 +1,3 @@
-[![Gitter](https://badges.gitter.im/plvicente-ringsce/community.svg)]
-(https://gitter.im/plvicente-ringsce/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
 #  ringsce editor
 This is an editor written with Lazarus IDE and free Pascal. Where you can use for ringsce repo to build the engine
 ringsCE editor is available too for silicon compatibility mode. For, this build its' a gtk3 editor and interpreter.
@@ -14,6 +11,9 @@ To get started, we need to have now a m1+ for building our own json library and 
 ## Database goals
 
 Our database goals are to achieve a library capable of working with JSON and XML.
+
+### v1 updated version
+it's compatible with Lazarus-ide version 3. Already done the change.
 
 ## Parser and reader
 Here, we will find a parser and a reader for processing the data inside the openkrown data file folder. This library will be inside the data-dir folder. With this parser, we can manipulate the data from the zip content folder.
@@ -32,4 +32,5 @@ You can contact us here. Or try to chat with us at discord: plvicente
 ![Screenshot](RINGSCE_v2.png)
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](pdvicente@gleentech.com)
+
 
