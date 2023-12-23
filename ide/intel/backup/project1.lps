@@ -7,7 +7,8 @@
       <Unit>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <UnitName Value="ringsce"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="7" Y="11"/>
         <UsageCount Value="287"/>
         <Loaded Value="True"/>
@@ -19,7 +20,6 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="6"/>
         <UsageCount Value="287"/>
@@ -164,6 +164,15 @@
         <TopLine Value="56"/>
         <CursorPos X="11" Y="75"/>
         <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="sqlcon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="18"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="28">
