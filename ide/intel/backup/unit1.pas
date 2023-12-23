@@ -73,7 +73,6 @@ implementation
 //create space token
 var hlt :TSynCompletion;
 
-
 { TForm1 }
 
   // function getExtension
@@ -104,6 +103,15 @@ Begin
   inc(leftchar); // increment by one to ignore the AFind
   rightchar:=rightchar-leftchar;// this should give the count for the copy command
   Result := copy(S,LeftChar,RightChar);
+end;
+
+function readFile(S: String): String;
+ var
+  myfile: file;
+begin
+  assign(myfile, 'sillyname.db');
+  reset(myfile);
+  //blockread(myfile, bufferplace^, 45);
 end;
 
 procedure TForm1.FClick(Sender: TObject);
@@ -153,6 +161,7 @@ procedure TForm1.SynEdit1Change(Sender: TObject);
 begin
     SynEdit1.Caption := '';
 end;
+
 
 procedure TForm1.ToolBar1Click(Sender: TObject);
 begin
