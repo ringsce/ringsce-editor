@@ -1,4 +1,4 @@
-program project1;
+program ringsce;
 
 {$mode objfpc}{$H+}
 

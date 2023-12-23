@@ -7,8 +7,9 @@
       <Unit>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
-        <CursorPos X="18"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="16"/>
         <UsageCount Value="287"/>
         <Loaded Value="True"/>
       </Unit>
@@ -23,7 +24,6 @@
         <CursorPos X="29" Y="102"/>
         <UsageCount Value="287"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="setup1.pas"/>
@@ -140,12 +140,10 @@
         <ComponentName Value="Form5"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="27"/>
-        <CursorPos Y="54"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="47"/>
+        <CursorPos X="62" Y="82"/>
         <UsageCount Value="220"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="updater.pas"/>
@@ -153,39 +151,13 @@
         <ComponentName Value="Form6"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="74" Y="17"/>
+        <CursorPos X="47"/>
         <UsageCount Value="448"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="79" Column="3" TopLine="70"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="78" Column="3" TopLine="69"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="77" Column="3" TopLine="68"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="76" Column="3" TopLine="67"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="77" Column="3" TopLine="68"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="79" Column="3" TopLine="70"/>
-      </Position>
+    <JumpHistory HistoryIndex="17">
       <Position>
         <Filename Value="unit1.pas"/>
         <Caret Line="11" Column="83" TopLine="3"/>
@@ -231,56 +203,32 @@
         <Caret Line="125" Column="5" TopLine="105"/>
       </Position>
       <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="18" Column="18"/>
-      </Position>
-      <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="33"/>
-      </Position>
-      <Position>
         <Filename Value="unit1.pas"/>
         <Caret Line="9" Column="64"/>
       </Position>
       <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="29" TopLine="2"/>
-      </Position>
-      <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="41" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="search.pas"/>
-        <Caret Column="27"/>
-      </Position>
-      <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="48" Column="3" TopLine="17"/>
-      </Position>
-      <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="50" Column="3" TopLine="17"/>
-      </Position>
-      <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="55" Column="3" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="57" Column="3" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="46" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="search.pas"/>
-        <Caret Line="64" TopLine="28"/>
+        <Filename Value="updater.pas"/>
+        <Caret Column="14"/>
       </Position>
       <Position>
         <Filename Value="updater.pas"/>
-        <Caret Column="14"/>
+        <Caret Line="40" Column="15" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="updater.pas"/>
+        <Caret Line="37" Column="4" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="updater.pas"/>
+        <Caret Line="35" Column="18" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="updater.pas"/>
+        <Caret Line="39" Column="14" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="updater.pas"/>
+        <Caret Line="8" Column="56"/>
       </Position>
     </JumpHistory>
     <RunParams>
