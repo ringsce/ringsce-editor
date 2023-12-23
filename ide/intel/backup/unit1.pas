@@ -5,7 +5,7 @@ unit Unit1;
 interface
 
 uses
-  {$IFDEF UNIX}cthreads, cmem, {$ENDIF}
+  {$IFDEF UNIX}cthreads,{$ENDIF}
   fphttpapp, httpdefs, httproute, fpjson, jsonparser,
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ComCtrls,
   SynEdit, SynEditHighlighter, LCLType, Lazlogger,SynCompletion, SynHighlighterCpp, SynHighlighterPas,
@@ -22,8 +22,7 @@ type
     OpenDialog1: TOpenDialog;
     F: TMenuItem;
     MenuItem1: TMenuItem;
-    MenuItem10: TMenuItem;
-    MenuItem11: TMenuItem;
+    ListAll: TMenuItem;
     MenuItem12: TMenuItem;
     MenuItem13: TMenuItem;
     MenuItem14: TMenuItem;
@@ -50,6 +49,7 @@ type
     procedure AboutClick(Sender: TObject);
     procedure MenuItem10Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
+    procedure MenuItem13Click(Sender: TObject);
     procedure MenuItem15Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
     procedure MenuItem9Click(Sender: TObject);
@@ -120,6 +120,11 @@ procedure TForm1.MenuItem10Click(Sender: TObject);
 begin
 end;
 procedure TForm1.MenuItem12Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.MenuItem13Click(Sender: TObject);
 begin
 
 end;

@@ -3,7 +3,20 @@ program ringsce;
 {$mode objfpc}{$H+}
 
 uses
-  {$IFDEF UNIX}
+  {$IFDEF UNIX}  // Linux
+  {$IFNDEF DARWIN}
+    SQLiteDefaultLibrary := 'libsqlite3.so';
+  {$ENDIF}
+  {$IFDEF DARWIN}
+    //SQLiteLibraryName:='/usr/lib/libsqlite3.dylib';
+  {$ENDIF}
+{$ENDIF}
+
+{$IFDEF WINDOWS} // Windows
+  SQLiteDefaultLibrary := 'sqlite3.dll';
+{$ENDIF}
+
+{$IFDEF UNIX}
   cthreads,
   {$ENDIF}
   {$IFDEF HASAMIGA}
