@@ -48,6 +48,7 @@
       <Unit>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="ringsce"/>
       </Unit>
       <Unit>
         <Filename Value="unit1.pas"/>
@@ -141,6 +142,10 @@
         <ComponentName Value="Form6"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="sqlcon.pas"/>
+        <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
   </ProjectOptions>

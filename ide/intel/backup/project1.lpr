@@ -8,7 +8,7 @@ uses
     SQLiteDefaultLibrary := 'libsqlite3.so';
   {$ENDIF}
   {$IFDEF DARWIN}
-    SQLiteLibraryName:='/usr/lib/libsqlite3.dylib';
+    //SQLiteLibraryName:='/usr/lib/libsqlite3.dylib';
   {$ENDIF}
 {$ENDIF}
 

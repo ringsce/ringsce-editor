@@ -24,7 +24,7 @@ uses
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, Unit1, setup1, Unit2, Unit3, Unit4, createFile, splashscreen, saveCPP,
-  savePHP, saveBAS, Settings, search, updater;
+  savePHP, saveBAS, Settings, search, updater, sqlcon;
   { you can add units after this }
 
 {$R *.res}
