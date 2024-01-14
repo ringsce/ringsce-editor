@@ -1,6 +1,6 @@
 {----------------------------------------------------------------------------}
 {                                                                            }
-{ File(s): hud.pas                                                        }
+{ File(s): maps.pas                                                        }
 { Content: mmo\Client - builds an intended movement command to send to the server }
 {                                                                            }
 { Initial conversion by : Pedro Dias Vicente - pdvicente@gleentech.com                           }
@@ -30,7 +30,3 @@
 {----------------------------------------------------------------------------}
 
 {.$DEFINE TODO}
-
-
-unit hud;
-
