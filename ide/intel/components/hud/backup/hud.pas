@@ -37,7 +37,7 @@ unit hud;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Interfaces;
 
 type
   TForm1 = class(TForm)
