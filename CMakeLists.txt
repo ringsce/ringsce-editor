@@ -1,5 +1,5 @@
 project(ringsCE)
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.24 FATAL_ERROR)
 #find_package(SDL2 REQUIRED CONFIG)
 #find_package(SDL2_image 2 REQUIRED)
 #find_package(SDL2_net 2 REQUIRED)

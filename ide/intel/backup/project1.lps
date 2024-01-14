@@ -8,8 +8,9 @@
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ringsce"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <CursorPos X="7" Y="11"/>
+        <CursorPos Y="7"/>
         <UsageCount Value="287"/>
         <Loaded Value="True"/>
       </Unit>
@@ -20,10 +21,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="94"/>
-        <CursorPos X="9" Y="110"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="136"/>
+        <CursorPos X="49" Y="136"/>
         <UsageCount Value="287"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -160,20 +160,20 @@
         <Loaded Value="True"/>
       </Unit>
       <Unit>
+        <Filename Value="sqlcon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="20" Y="11"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
         <Filename Value="/usr/local/share/fpcsrc/packages/fv/src/menus.pas"/>
         <UnitName Value="Menus"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="56"/>
         <CursorPos X="11" Y="75"/>
         <UsageCount Value="10"/>
-      </Unit>
-      <Unit>
-        <Filename Value="sqlcon.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="20" Y="11"/>
-        <UsageCount Value="21"/>
-        <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
